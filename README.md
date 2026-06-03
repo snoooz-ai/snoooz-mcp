@@ -36,3 +36,10 @@ With Snoooz MCP, AI assistants can help you:
 
 ```text
 Create a rule that replies to sales leads and follows up after 3 days.
+
+## MCP Registry
+
+Snoooz MCP is published in the official MCP Registry as:
+
+```text
+io.github.snoooz-ai/snoooz-mcp
