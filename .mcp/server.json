@@ -1,0 +1,50 @@
+{
+    "name": "io.github.snoooz-ai/snoooz-mcp",
+    "description": "Snoooz MCP server for configuring AI email automation, rules, automatic follow-ups, training knowledge, reply previews, and mailbox troubleshooting.",
+    "version": "0.2.1",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/snoooz-ai/snoooz-mcp",
+      "source": "github"
+    },
+    "websiteUrl": "https://snoooz.ai",
+    "documentationUrl": "https://github.com/snoooz-ai/snoooz-mcp#readme",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://app.snoooz.ai/mcp",
+        "description": "Global / US Snoooz MCP endpoint"
+      },
+      {
+        "type": "streamable-http",
+        "url": "https://app-eu.snoooz.ai/mcp",
+        "description": "EU Snoooz MCP endpoint"
+      }
+    ],
+    "auth": {
+      "type": "oauth2",
+      "authorizationServers": [
+        "https://app.snoooz.ai",
+        "https://app-eu.snoooz.ai"
+      ]
+    },
+    "categories": [
+      "email",
+      "automation",
+      "productivity",
+      "sales",
+      "support"
+    ],
+    "tags": [
+      "email automation",
+      "ai email assistant",
+      "inbox automation",
+      "follow-ups",
+      "rules",
+      "crm",
+      "helpdesk",
+      "sales",
+      "support"
+    ],
+    "license": "MIT"
+  }
